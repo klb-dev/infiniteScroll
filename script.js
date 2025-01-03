@@ -8,7 +8,7 @@ let photosArray = [];
 
 // unsplash API
 const count = 30;
-const apiKey = 'LqO-GuGO5fPM-8hFm8E0VqxkgFlH4E4sHyAB5RA4FEk';
+const apiKey = 'LqO-GuGO5fPM-8hFm8E0VqxkgFlH4E4sHyAB5RA4FEk'
 const apiUrl =`https://api.unsplash.com/photos/random?query=wildlife&client_id=${apiKey}&count=${count}`;
 
 // images loaded
@@ -49,6 +49,7 @@ function displayPhotos() {
         imgContainer.appendChild(item);
     });
 }
+
 
 // Get photos from unsplash API
 async function getPhotos() {
